@@ -4,6 +4,9 @@ const Card = () => {
     const navigate = useNavigate()
     const handlePayent = () => {
         navigate('/payment')
+        window.scrollTo(0, 0)
+
+
     }
 
     return (
@@ -100,7 +103,7 @@ const Card = () => {
                     </p>
                     <div className='  flex justify-center  mt-5'>
 
-                    <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
+                        <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
                     </div>
                     <p className='text-blue-500 text-[20px] font-bold mt-5'>Click Here to Download Sample File</p>
                     <p className='mt-5 font-bold'>👇👇 Screenshots 👇👇</p>
@@ -134,7 +137,7 @@ const Card = () => {
                         <img src="https://picasso.cosmofeed.com/media.cosmofeed.com/763-_20231113_150953_0000-2023-13-11-09-48-14-2023-14-12-12-06-54.webp?w=600" alt="" className='w-full mt-10' />
                         <div className='  flex justify-center  my-10 '>
 
-                        <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
+                            <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
                         </div>
                         <img src="https://picasso.cosmofeed.com/media.cosmofeed.com/20231114_132532_0000-2023-14-11-07-57-46-2023-14-12-12-07-22.webp?w=600" alt="" className='w-full' />
                         <p className='mt-3 text-2xl font-bold text-center  text-[#ff0000]'>🚨 Important Notice Regarding Payment Issues</p>
@@ -147,7 +150,7 @@ const Card = () => {
                         <p className='text-[20px] font-bold mt-2  text-center text-[#ff0000]'>Limited Time Offer Price</p>
                         <div className='  flex justify-center  mt-5'>
 
-                        <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
+                            <button className='bg-blue-500 px-28 py-3 text-white font-bold lg:text-[25px] max-md:text-[18px] max-md:py-2 max-md:px-10 hover:bg-black rounded-sm hover:scale-110 transition duration-500' onClick={handlePayent}>Buy Now</button>
                         </div>
 
                         <p className='text-md font-bold text-center mt-4'>⏱️Limited Time Offer, Price Will Increase Soon⏱️💸Buy Now , Use, Resell & Earn💸</p>
@@ -157,10 +160,10 @@ const Card = () => {
                         <p className='text-[20px] font-bold text-blue-500 '>Contact Marketing  Mingles </p>
 
                         <div className='flex justify-center flex-col items-center'>
-                            
 
-                        <p className='text-sm font-semibold mt-2 mb-2 flex gap-2'> <span><img src="./email.jpg" alt="" className='w-6' /></span>admin@marketingmingles.com</p>
-                        <p className='text-sm font-semibold flex gap-2'> <span><img src="./call.png" alt="" className='w-4' /></span>+91-9501433347</p>
+
+                            <p className='text-sm font-semibold mt-2 mb-2 flex gap-2'> <span><img src="./email.jpg" alt="" className='w-6' /></span>admin@marketingmingles.com</p>
+                            <p className='text-sm font-semibold flex gap-2'> <span><img src="./call.png" alt="" className='w-4' /></span>+91-9501433347</p>
                         </div>
 
                     </div>
@@ -171,7 +174,7 @@ const Card = () => {
 
 
                     </div>
-               
+
                     <img src="https://cosmofeed.com/_next/static/media/SuperProfile-dark.fc38e89a.svg" alt="" className='w-32 mt-8' />
                     <p className='text-sm font-sm'>Want to create your own payment page? Experience hassle-free payouts and premium support.</p>
                     <p className='text-sm font-semibold text-blue-500 underline'> Get started now!</p>

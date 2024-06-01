@@ -4,6 +4,7 @@ const Header = () => {
     const navigate = useNavigate()
     const handlePayent = () => { 
         navigate('/payment')
+        window.scrollTo(0, 0)
     }
 
     return (
